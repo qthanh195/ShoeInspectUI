@@ -1,0 +1,31 @@
+#### Auto detect object ####
+
+tìm ra thông số của độ mở màn trập cam(sáng - tôi của cam)
+hệ số blur trước sau
+ngưỡng lấy ảnh 
+
+-> vật có contour tương đồng nhất, số pixcel xấp xỉ, độ dài rộng xấp xỉ
+
+
+Calib tâm bằng 2 điểm
+Đã test các chức năng giờ cần
+
+- Sắp xếp lại UI
+- thêm logic 
+Trong tab calib:
+Hiện thị tâm hiện tại lấy giá trị từ sp_
+Calib tọa độ tâm sẽ có điểm startframe, góc xoay frame, và có phần clib bằng 2 điểm
+nhấn calib new cỏodinate cho phép lấy toạ độ từ tâm contour,
+bấm cancel sẽ hủy, các thông số trong tab calib sẽ lưu và setup.json
+
+Vẽ lại UI
+
+Code phần lưu thông số config, thêm luồng calib, Xử lý lỗi luồng
+
+
+
+##########
+
+them goc xoay
+thêm thông số z
+Xử lý stop luôn khi đang pause
